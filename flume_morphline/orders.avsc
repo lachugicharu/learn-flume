@@ -1,0 +1,17 @@
+{
+  "type" : "record",
+  "name" : "orders",
+  "fields" : [ {
+    "name" : "order_id",
+    "type" : [ "null", "int" ]
+  }, {
+    "name" : "order_date",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "order_customer_id",
+    "type" : [ "null", "int" ]
+  }, {
+    "name" : "order_status",
+    "type" : [ "null", "string" ]
+  } ]
+}
